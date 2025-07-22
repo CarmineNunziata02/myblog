@@ -239,6 +239,7 @@ section h2::after {
         gap: 8px;
         width: auto;
         max-width: 90%;
+        position: sticky;
     }
 
     .navbar-item {
