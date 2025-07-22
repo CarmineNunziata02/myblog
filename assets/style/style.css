@@ -230,10 +230,6 @@ section h2::after {
 }
 
 @media (max-width: 768px) {
-    body {
-        padding-bottom: 80px;
-    }
-
     .navbar {
         bottom: 10px;
         left: 50%;
@@ -243,7 +239,6 @@ section h2::after {
         gap: 8px;
         width: auto;
         max-width: 90%;
-        z-index: 100;
     }
 
     .navbar-item {
@@ -252,12 +247,6 @@ section h2::after {
 
     .navbar-item span {
         font-size: 11px;
-    }
-
-    footer {
-        position: relative;
-        z-index: 1;
-        background-color: var(--bg-color);
     }
 }
 
